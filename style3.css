@@ -1,0 +1,157 @@
+
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: #ccc;
+}
+
+.title {
+    font-size: 40px;
+    color: blueviolet;
+    text-align: center;
+}
+
+
+.header {
+    background-color: #666565;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-link {
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 5px solid transparent;
+
+}
+
+.menu-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-link:hover {
+    background-color: #fff;
+    color: darkmagenta;
+    border: 5px solid darkmagenta;
+}
+
+
+.txt-box {
+    padding: 20px;
+    width: 100%;
+}
+
+.item {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.txt-link {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: blueviolet;
+}
+
+.content-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer {
+    width: auto;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    align-content: end;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+.socials {
+    margin: 25px;
+    height: 50px;display: inline; /* the default for span */
+    width: 700px;
+    height: 70px;
+
+    
+}
+.socials_pic {
+    margin: 15px;
+    margin-top: 25px;
+}
+.license {
+    width: 500px;
+    height: 150px;
+    color: #ccc;
+    margin: 25px;
+    margin-left: auto;
+    margin-right: 25px;
+}
+.routeblock {
+    display: flex;
+    margin: 50px;
+}
+.textroute {
+    margin-left: 50px;
+}
+.product{
+    display: flex;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    background-color:#666565;
+}
+.bigimg{
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+    
+}
+.deskprod{
+    margin-top: 50px;
+    width: 300px;
+    height: 400px;
+}
+.tocart {
+    padding: 10px 20px;
+    margin-top: 108px;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 5px solid transparent;
+
+}
+.tocart:hover{
+    background-color: #fff;
+    color: blueviolet;
+    border: 5px solid blueviolet;
+}
